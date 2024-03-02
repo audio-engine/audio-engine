@@ -15,7 +15,7 @@ header {
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 4em 0 4em 0;
+  padding: 4em 0 3.5em 0;
 }
 
 p {
@@ -26,7 +26,7 @@ p {
 
 section#one {
   padding: 0 15px 0 15px;
-  background-color: red;
+  background-image: linear-gradient(to right, #151515, #383838);
   width: 100%;
   justify-content: center;
   display: flex;
@@ -48,7 +48,7 @@ a#two {
   font-weight: 700;
   font-style: bold;
   font-size: 3em;
-  color: #fff;
+  color: #eecb57;
   text-align: center;
   width: 100%;
 }
@@ -80,8 +80,9 @@ p#headertex {
   font-style: bold;
   font-size: 4em;
   padding-bottom: 10px;
-  background-color: red;
-  color: #fff;
+  background-image: linear-gradient(to right, #151515, #383838);
+  color: #eecb57;
+
   width: 100%;
 }
 
@@ -91,9 +92,10 @@ div {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 2.5em;
+  font-style: italic;
   align-items: center;
-  padding-top: 0.5em;
-  border: 3px solid #f2f2f2;
+  padding: 0.5em 0 0.5em 0;
+  border: 3px solid #000;
   border-radius: 9px;
   width: 20em;
   margin-top: 1em;
@@ -105,6 +107,7 @@ section#three {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: #f2f2f2;
 }
 
 a {
@@ -114,7 +117,7 @@ a {
 }
 
 a:hover {
-  color: red;
+  color: #eecb57;
 }
 
 img#logo {
