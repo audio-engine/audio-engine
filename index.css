@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic");
 
 body,
-html {
+html,
+section {
   margin: 0;
   padding: 0;
 }
@@ -25,22 +26,28 @@ p {
 }
 
 section#one {
-  padding: 0 15px 0 15px;
   background-image: linear-gradient(to right, #151515, #383838);
   width: 100%;
-  justify-content: center;
-  display: flex;
-  flex-direction: column;
+  text-align: center;
+  padding: 1em 0;
 }
 
 section#two {
-  padding: 6em 0 6em 0;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+  padding: 4em 0;
   width: 100%;
   background-color: #f2f2f2;
   align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+section#three {
+  width: 100%;
+  background-color: #f2f2f2;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 
 a#two {
@@ -82,11 +89,10 @@ p#headertex {
   padding-bottom: 10px;
   background-image: linear-gradient(to right, #151515, #383838);
   color: #eecb57;
-
-  width: 100%;
 }
 
 div {
+  justify-content: center;
   display: flex;
   flex-direction: column;
   font-family: "Roboto", sans-serif;
@@ -98,16 +104,7 @@ div {
   border: 3px solid #000;
   border-radius: 9px;
   width: 20em;
-  margin-top: 1em;
-}
-
-section#three {
-  padding: 0em 0 3em 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: #f2f2f2;
+  margin: 1em 0;
 }
 
 a {
