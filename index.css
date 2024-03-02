@@ -50,6 +50,29 @@ section#three {
   flex-direction: column;
 }
 
+p#two {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: bold;
+  font-size: 3em;
+  color: #eecb57;
+  text-align: center;
+  width: 100%;
+}
+
+section#have {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4em 0;
+  flex-direction: row;
+}
+
+img#have {
+  height: 45em;
+  padding: 0 1em;
+}
+
 a#two {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
@@ -73,12 +96,13 @@ a#three {
   text-decoration: none;
   width: 100%;
 }
-p#sec2text {
+a#sec2text {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-style: bold;
   font-size: 5em;
   width: 40%;
+  text-align: center;
 }
 
 p#headertex {
@@ -113,7 +137,7 @@ a {
   padding: 5px;
 }
 
-a:hover {
+div#divd a:hover {
   color: #eecb57;
 }
 
