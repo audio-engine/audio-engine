@@ -101,7 +101,7 @@ a#sec2text {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-style: bold;
-  font-size: 5em;
+  font-size: 6vh;
   width: 40%;
   text-align: center;
 }
@@ -169,11 +169,73 @@ img#logostm {
 }
 
 img#logo {
-  height: 30em;
+  height: 30vh;
 }
 img#tm {
   margin-right: 2em;
-  height: 50em;
+  height: 60vh;
   border: 3px solid #111;
   border-radius: 9px;
+}
+
+@media only screen and (max-width: 1700px) {
+  section#have {
+    flex-direction: column;
+    padding-top: 0;
+  }
+
+  img#have {
+    padding-top: 3em;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  section#two {
+    flex-direction: column;
+  }
+
+  a#sec2text {
+    padding-top: 0.5em;
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  img#logo {
+    height: 45vw;
+  }
+  img#tm {
+    height: 50vh;
+  }
+  img#have {
+    height: 90vw;
+  }
+
+  p#two {
+    font-size: 6vw;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  img#tm {
+    height: 35vh;
+    margin-right: 0;
+  }
+  img#have {
+    height: 35vh;
+  }
+
+  div#divd {
+    font-size: 4vw;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  div#divd {
+    font-size: 4vw;
+  }
+}
+
+p#num {
+  color: red;
 }
